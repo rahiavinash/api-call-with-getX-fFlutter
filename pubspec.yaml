@@ -1,0 +1,28 @@
+name: rest_api_call
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  cupertino_icons: ^1.0.8
+  http: ^0.13.6
+  fluttertoast: ^8.2.4
+  webview_flutter: ^4.4.2
+  webview_flutter_android: ^3.10.0
+  webview_flutter_wkwebview: ^3.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
